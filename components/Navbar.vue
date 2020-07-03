@@ -31,6 +31,7 @@
     methods: {
       AllowBlockMenu(){
         // Store Cambiar el valor del menu de falso a verdadero
+        this.$store.commit('setMenuVertical', !this.$store.state.menu_vertical)
       }
     }
   }
