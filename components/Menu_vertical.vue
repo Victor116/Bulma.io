@@ -1,6 +1,14 @@
 <template>
-  <div class="column is-12-desktop is-12-tablet is-12-mobile has-background-success">
-    <p>Aqui va un listado de los componentes</p>
+  <div class="column is-12-desktop is-12-tablet is-12-mobile">
+    <b-menu>
+      <b-menu-list label="Menu">
+        <n-link to="column">Column</n-link>
+      </b-menu-list>
+      <b-menu-list>
+        <n-link to="/">Listado de los componentes</n-link>
+      </b-menu-list>
+    </b-menu>
+
   </div>
 </template>
 
