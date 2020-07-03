@@ -1,6 +1,6 @@
 <template>
-  <div class="column is-12-mobile is-12-tablet is-12-desktop has-background-dark">
-    Aqui va un listado
+  <div class="column is-12-desktop is-12-tablet is-12-mobile has-background-success">
+    <p>Aqui va un listado de los componentes</p>
   </div>
 </template>
 
