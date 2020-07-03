@@ -2,6 +2,7 @@
   "name": "bulma",
   "version": "1.0.0",
   "private": true,
+  "author": "@Victor116 Gituhb/Gitlab - Víctor Fernando Gil Calderón",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -9,8 +10,8 @@
     "generate": "nuxt build && nuxt export"
   },
   "dependencies": {
-    "@nuxtjs/bulma": "^1.2.7",
-    "nuxt": "^2.13.0"
+    "nuxt": "^2.13.0",
+    "nuxt-buefy": "^0.3.31"
   },
   "devDependencies": {}
 }
