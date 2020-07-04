@@ -53,13 +53,12 @@
 
       <!-- Codigo de ejmplo para las 12 columnas -->
       <code>
-        div class="columns is-multiline is-tablet is-mobile"> <br/>
-          &#8194 div class="column is-1-desktop is-1-tablet is-1-mobile has-background-info"> <br/>
-            &#8195 &#8194 p class="has-text-centered has-text-white">1/p> <br/>
-          &#8194 /div><br/>
-        &#8201/div><br/>
+        &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
+          &#8194; &lt;div class="column is-1-desktop is-1-tablet is-1-mobile has-background-info"> <br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">1/p> <br/>
+          &#8194; &lt;/div><br/>
+        &lt;/div><br/>
       </code>
-      
 
       <br/><br/>
       <!-- 12 columnas en un solo div -->
@@ -75,11 +74,11 @@
 
       <!-- Codigo columns y column is-12-* -->
       <code>
-        div class="columns is-multiline is-tablet is-mobile"> <br/>
-          &#8194 div class="column is-12-desktop is-12-tablet is-12-mobile has-background-success"> <br/>
-            &#8195 &#8194 p class="has-text-centered has-text-white">1/p> <br/>
-          &#8194 /div> <br/>
-        /div>
+        &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
+          &#8194; &lt;div class="column is-12-desktop is-12-tablet is-12-mobile has-background-success"> <br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">1/p> <br/>
+          &#8194; &lt;/div> <br/>
+        &lt;/div>
       </code>
 
       <!-- 12 columnas en un solo div -->
@@ -87,14 +86,14 @@
         <p>Para el siguiente ejemplo necesitare las 12 columnas en un div, para ocupar toda la pantalla.</p>
       </div>
       <div class="column is-12-desktop is-12-tablet is-12-mobile has-background-success">
-        <p class="has-text-centered has-text-white is-paddingless">1</p>
+        <p class="has-text-centered has-text-white">1</p>
       </div>
 
       <!-- Codigo 12 columnas en un solo div -->
       <code>
-        div class="column is-12-desktop is-12-tablet is-12-mobile has-background-success"><br/>
-          &#8194 p class="has-text-centered has-text-white is-paddingless">1/p><br/>
-        /div>
+        &lt;div class="column is-12-desktop is-12-tablet is-12-mobile has-background-success"><br/>
+          &#8194; &lt;p class="has-text-centered has-text-white">1/p><br/>
+        &lt;/div>
       </code>
 
       <!-- 2 columnas -->
@@ -109,6 +108,8 @@
           <p class="has-text-centered has-text-white">2</p>
         </div>
       </div>
+
+      
     </section>
   </div>
 </template>
