@@ -18,7 +18,7 @@
       <!-- Codigo 12 columnas en un solo div -->
       <code>
         &lt;div class="column is-12-desktop is-12-tablet is-12-mobile has-background-success"><br/>
-          &#8194; &lt;p class="has-text-centered has-text-white">1/p><br/>
+          &#8194; &lt;p class="has-text-centered has-text-white">1&lt;/p><br/>
         &lt;/div>
       </code><br/><br/>
 
@@ -70,16 +70,15 @@
         </div>
       </div>
 
-      <!-- Codigo de ejmplo para las 12 columnas -->
+      <!-- Codigo de ejemplo para las 12 columnas -->
       <code>
         &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
           &#8194; &lt;div class="column is-1-desktop is-1-tablet is-1-mobile has-background-info"> <br/>
-            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">1/p> <br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">1&lt;/p> <br/>
           &#8194; &lt;/div><br/>
         &lt;/div><br/>
-      </code>
+      </code><br/><br/>
 
-      <br/><br/>
       <!-- 12 columnas en un solo div -->
       <div class="column is-12-desktop is-12-tablet is-12-mobile">
         <p>Para el siguiente ejemplo necesitare las 12 columnas en un div, para ocupar toda la pantalla.</p>
@@ -94,14 +93,14 @@
       <code>
         &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
           &#8194; &lt;div class="column is-12-desktop is-12-tablet is-12-mobile has-background-success"> <br/>
-            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">1/p> <br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">1&lt;/p> <br/>
           &#8194; &lt;/div> <br/>
         &lt;/div>
-      </code>
+      </code><br/><br/>
 
-      <!-- 2 columnas -->
+      <!-- 6 columnas en 2 div -->
       <div class="column is-12-desktop is-12-tablet is-12-mobile">
-        <p>Para el siguiente ejemplo necesitare 6 columnas en cada div, para ocupar la mitad de la pantalla.</p>
+        <p>Para el siguiente ejemplo necesitare 6 columnas en cada div, para ocupar la mitad de cada uno de la pantalla.</p>
       </div>
       <div class="columns is-multiline is-tablet is-mobile">
         <div class="column is-6-desktop is-6-tablet is-6-mobile has-background-grey">
@@ -112,6 +111,119 @@
         </div>
       </div>
 
+      <!-- Codigo de ejemplo para 6 columnas en 2 div -->
+      <code>
+        &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
+          &#8194; &lt;div class="column is-6-desktop is-6-tablet is-6-mobile has-background-grey"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">1&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-6-desktop is-6-tablet is-6-mobile has-background-black-bis"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">2&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+        &lt;/div><br/>
+      </code><br/><br/>
+
+      <!-- 4 columnas en 3 div -->
+      <div class="column is-12-desktop is-12-tablet is-12-mobile">
+        <p>Para el siguiente ejemplo necesitare 4 columnas en cada div, para ocupar un tercio por cada uno de la pantalla.</p>
+      </div>
+      <div class="columns is-multiline is-tablet is-mobile">
+        <div class="column is-4-desktop is-4-tablet is-4-mobile has-background-info">
+          <p class="has-text-centered has-text-white">1</p>
+        </div>
+        <div class="column is-4-desktop is-4-tablet is-4-mobile has-background-success">
+          <p class="has-text-centered has-text-white">2</p>
+        </div>
+        <div class="column is-4-desktop is-4-tablet is-4-mobile has-background-warning">
+          <p class="has-text-centered has-text-white">3</p>
+        </div>
+      </div>
+
+      <!-- Codigo de ejemplo para 6 columnas en 2 div -->
+      <code>
+        &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
+          &#8194; &lt;div class="column is-4-desktop is-4-tablet is-4-mobile has-background-info"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">1&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-4-desktop is-4-tablet is-4-mobile has-background-success"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">2&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-4-desktop is-4-tablet is-4-mobile has-background-warning"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">2&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+        &lt;/div><br/>
+      </code><br/><br/>
+
+      <!-- 2 columnas en 6 div -->
+      <div class="column is-12-desktop is-12-tablet is-12-mobile">
+        <p>Para el siguiente ejemplo necesitare 2 columnas en cada div, para ocupar un sexto por cada uno de la pantalla.</p>
+      </div>
+      <div class="columns is-multiline is-tablet is-mobile">
+        <div class="column is-2-desktop is-2-tablet is-2-mobile has-background-dark">
+          <p class="has-text-centered has-text-white">1</p>
+        </div>
+        <div class="column is-2-desktop is-2-tablet is-2-mobile has-background-link">
+          <p class="has-text-centered has-text-white">2</p>
+        </div>
+        <div class="column is-2-desktop is-2-tablet is-2-mobile has-background-info">
+          <p class="has-text-centered has-text-white">3</p>
+        </div>
+        <div class="column is-2-desktop is-2-tablet is-2-mobile has-background-success">
+          <p class="has-text-centered has-text-white">4</p>
+        </div>
+        <div class="column is-2-desktop is-2-tablet is-2-mobile has-background-warning">
+          <p class="has-text-centered has-text-white">5</p>
+        </div>
+        <div class="column is-2-desktop is-2-tablet is-2-mobile has-background-danger">
+          <p class="has-text-centered has-text-white">6</p>
+        </div>
+      </div>
+
+      <!-- Codigo de ejemplo para 6 columnas en 2 div -->
+      <code>
+        &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
+          &#8194; &lt;div class="column is-2-desktop is-2-tablet is-2-mobile has-background-dark"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">1&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-2-desktop is-2-tablet is-2-mobile has-background-link"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">2&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-2-desktop is-2-tablet is-2-mobile has-background-info"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">3&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-2-desktop is-2-tablet is-2-mobile has-background-success"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">4&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-2-desktop is-2-tablet is-2-mobile has-background-warning"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">5&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-2-desktop is-2-tablet is-2-mobile has-background-danger"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">6&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+        &lt;/div><br/>
+      </code><br/>
+    </section>
+
+    <section class="section is-paddingless">
+      <div class="column is-12-desktop is-12-tablet is-12-mobile">
+        <h1 class="title is-size-2">Combinar varios tamaños</h1>
+      </div>
+
+      <!-- 2 columnas, 8 columnas y 2 columnas -->
+      <div class="column is-12-desktop is-12-tablet is-12-mobile">
+        <p>Para el siguiente ejemplo necesitare 2 columnas en 1er div, 8 columnas en 2do div y 2 columnas en 3er div.</p>
+      </div>
+      <div class="columns is-multiline is-tablet is-mobile">
+        <div class="column is-2-desktop is-2-tablet is-2-mobile has-background-info">
+          <p class="has-text-centered has-text-white">1</p>
+        </div>
+        <div class="column is-8-desktop is-8-tablet is-8-mobile has-background-success">
+          <p class="has-text-centered has-text-white">2</p>
+        </div>
+        <div class="column is-2-desktop is-2-tablet is-2-mobile has-background-warning">
+          <p class="has-text-centered has-text-white">3</p>
+        </div>
+      </div>
 
     </section>
   </div>
