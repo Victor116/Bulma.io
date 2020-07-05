@@ -238,7 +238,61 @@
             &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-2-{{ isDispositive }}&lt;/p><br/>
           &#8194; &lt;/div><br/>
         &lt;/div><br/>
+      </code><br/><br/>
+
+      <!-- 1 column, 10 columnas y 1 column -->
+      <div class="column is-12-desktop is-12-tablet is-12-mobile">
+        <p>Para el siguiente ejemplo necesitare 2 columnas en 1er div, 8 columnas en 2do div y 2 columnas en 3er div.</p>
+      </div>
+      <div class="columns is-multiline is-tablet is-mobile">
+        <div class="column is-1-desktop is-1-tablet is-1-mobile has-background-info">
+          <p class="has-text-centered has-text-white">column is-1-{{ isDispositive }}</p>
+        </div>
+        <div class="column is-10-desktop is-10-tablet is-10-mobile has-background-success">
+          <p class="has-text-centered has-text-white">column is-10-{{ isDispositive }}</p>
+        </div>
+        <div class="column is-1-desktop is-1-tablet is-1-mobile has-background-warning">
+          <p class="has-text-centered has-text-white">column is-1-{{ isDispositive }}</p>
+        </div>
+      </div>
+
+      <!-- Codigo de ejemplo para 2 columnas, 8 columnas y 2 columnas -->
+      <code>
+        &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
+          &#8194; &lt;div class="column is-1-desktop is-1-tablet is-1-mobile has-background-info"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-1-{{ isDispositive }}&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-10-desktop is-10-tablet is-10-mobile has-background-success"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-10-{{ isDispositive }}&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-1-desktop is-1-tablet is-1-mobile has-background-warning"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-1-{{ isDispositive }}&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+        &lt;/div><br/>
       </code><br/>
+
+      <!-- Espacios costados -->
+      <div class="column is-12-desktop is-12-tablet is-12-mobile">
+        <p>Requererimos ocupar de espacios a los costados, de la manera en que se vea bien esteticamente hablando de diseño, por lo que se puede hacer de varias maneras diferentes.</p>
+      </div>
+
+      <!-- 1 column, 10 columnas y 1 column -->
+      <div class="column is-12-desktop is-12-tablet is-12-mobile">
+        <p>Para el siguiente ejemplo necesitare 11 columnas en un div y centrado.</p>
+      </div>
+      <div class="columns is-multiline is-tablet is-mobile is-centered">
+        <div class="column is-11-desktop is-11-tablet is-11-mobile has-background-info">
+          <p class="has-text-centered has-text-white">column is-11-{{ isDispositive }}</p>
+        </div>
+
+        <div class="column is-10-desktop is-10-tablet is-10-mobile has-background-success">
+          <p class="has-text-centered has-text-white">column is-10-{{ isDispositive }}</p>
+        </div>
+
+        <div class="column is-9-desktop is-9-tablet is-9-mobile has-background-warning">
+          <p class="has-text-centered has-text-white">column is-9-{{ isDispositive }}</p>
+        </div>
+      </div>
 
     </section>
   </div>
