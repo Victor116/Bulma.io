@@ -4,7 +4,7 @@
       <div class="column is-12-desktop is-12-tablet is-12-mobile">
         <h1 class="title is-size-2">Column - Responsividad - Grid</h1>
         <p>Las columnas <code>column</code> nos va permitir trabajar la responsividad de la pagina, añadiendo despues el tamaño que necesitemos <code>column is-12-desktop is-12-tablet is-12-mobile</code></p> 
-        <p>Bulma nos permite un maximo de 12 columnas, las cuales abarcan los 100vw disponibles de nuestra pantalla/monitor, como se muestra acontinuación.</p>
+        <p>Bulma nos permite un <span class="has-text-weight-bold">maximo de 12 columnas</span>, las cuales abarcan los 100vw disponibles de nuestra pantalla/monitor, como se muestra acontinuación.</p>
       </div>
 
       <!-- 12 columnas en un solo div -->
@@ -215,15 +215,30 @@
       </div>
       <div class="columns is-multiline is-tablet is-mobile">
         <div class="column is-2-desktop is-2-tablet is-2-mobile has-background-info">
-          <p class="has-text-centered has-text-white">1</p>
+          <p class="has-text-centered has-text-white">column is-2</p>
         </div>
         <div class="column is-8-desktop is-8-tablet is-8-mobile has-background-success">
-          <p class="has-text-centered has-text-white">2</p>
+          <p class="has-text-centered has-text-white">column is-8</p>
         </div>
         <div class="column is-2-desktop is-2-tablet is-2-mobile has-background-warning">
-          <p class="has-text-centered has-text-white">3</p>
+          <p class="has-text-centered has-text-white">column is-2</p>
         </div>
       </div>
+
+      <!-- Codigo de ejemplo para 2 columnas, 8 columnas y 2 columnas -->
+      <code>
+        &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
+          &#8194; &lt;div class="column is-2-desktop is-2-tablet is-2-mobile has-background-info"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-2&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-8-desktop is-8-tablet is-8-mobile has-background-success"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-8&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+          &#8194; &lt;div class="column is-2-desktop is-2-tablet is-2-mobile has-background-warning"><br/>
+            &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-2&lt;/p><br/>
+          &#8194; &lt;/div><br/>
+        &lt;/div><br/>
+      </code><br/>
 
     </section>
   </div>
