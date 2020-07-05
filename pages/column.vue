@@ -16,7 +16,7 @@
       </div>
 
       <!-- Codigo 12 columnas en un solo div -->
-      <code>
+      <code class="column is-12-desktop is-12-tablet is-12-mobile">
         &lt;div class="column is-12-desktop is-12-tablet is-12-mobile has-background-success"><br/>
           &#8194; &lt;p class="has-text-centered has-text-white">column is-12-{{ isDispositive }}&lt;/p><br/>
         &lt;/div>
@@ -71,7 +71,7 @@
       </div>
 
       <!-- Codigo de ejemplo para las 12 columnas -->
-      <code>
+      <code class="column is-12-desktop is-12-tablet is-12-mobile">
         &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
           &#8194; &lt;div class="column is-1-desktop is-1-tablet is-1-mobile has-background-info"> <br/>
             &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-1-{{ isDispositive }}&lt;/p> <br/>
@@ -90,7 +90,7 @@
       </div>
 
       <!-- Codigo columns y column is-12-* -->
-      <code>
+      <code class="column is-12-desktop is-12-tablet is-12-mobile">
         &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
           &#8194; &lt;div class="column is-12-desktop is-12-tablet is-12-mobile has-background-success"> <br/>
             &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-12-{{ isDispositive }}&lt;/p> <br/>
@@ -112,7 +112,7 @@
       </div>
 
       <!-- Codigo de ejemplo para 6 columnas en 2 div -->
-      <code>
+      <code class="column is-12-desktop is-12-tablet is-12-mobile">
         &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
           &#8194; &lt;div class="column is-6-desktop is-6-tablet is-6-mobile has-background-grey"><br/>
             &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-6-{{ isDispositive }}&lt;/p><br/>
@@ -140,7 +140,7 @@
       </div>
 
       <!-- Codigo de ejemplo para 6 columnas en 2 div -->
-      <code>
+      <code class="column is-12-desktop is-12-tablet is-12-mobile">
         &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
           &#8194; &lt;div class="column is-4-desktop is-4-tablet is-4-mobile has-background-info"><br/>
             &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-4-{{ isDispositive }}&lt;/p><br/>
@@ -180,7 +180,7 @@
       </div>
 
       <!-- Codigo de ejemplo para 6 columnas en 2 div -->
-      <code>
+      <code class="column is-12-desktop is-12-tablet is-12-mobile">
         &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
           &#8194; &lt;div class="column is-2-desktop is-2-tablet is-2-mobile has-background-dark"><br/>
             &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-2-{{ isDispositive }}&lt;/p><br/>
@@ -202,9 +202,7 @@
           &#8194; &lt;/div><br/>
         &lt;/div><br/>
       </code><br/>
-    </section>
 
-    <section class="section is-paddingless">
       <div class="column is-12-desktop is-12-tablet is-12-mobile">
         <h1 class="title is-size-2">Combinar varios tamaños</h1>
       </div>
@@ -226,7 +224,7 @@
       </div>
 
       <!-- Codigo de ejemplo para 2 columnas, 8 columnas y 2 columnas -->
-      <code>
+      <code class="column is-12-desktop is-12-tablet is-12-mobile">
         &lt;div class="columns is-multiline is-tablet is-mobile"> <br/>
           &#8194; &lt;div class="column is-2-desktop is-2-tablet is-2-mobile has-background-info"><br/>
             &#8195; &#8194; &lt;p class="has-text-centered has-text-white">column is-2-{{ isDispositive }}&lt;/p><br/>
@@ -293,7 +291,6 @@
           <p class="has-text-centered has-text-white">column is-9-{{ isDispositive }}</p>
         </div>
       </div>
-
     </section>
   </div>
 </template>
