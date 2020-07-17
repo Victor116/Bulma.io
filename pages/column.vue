@@ -277,7 +277,7 @@
         </p><br/>
       </div>
 
-      <!-- 1 column, 10 columnas y 1 column -->
+      <!-- 11, 10, 9, 8 columnas en un div respectivamente -->
       <div class="column is-12-desktop is-12-tablet is-12-mobile">
         <p>Para el siguiente ejemplo necesitare 11, 10, 9, 8 columnas en un div respectivamente y centrados.</p>
       </div>
@@ -299,7 +299,7 @@
         </div>
       </div>
 
-      <!-- Codigo de ejemplo para 2 columnas, 8 columnas y 2 columnas -->
+      <!-- Codigo de ejemplo para 11, 10, 9, 8 columnas en un div respectivamente  -->
       <code>
         &lt;div class="columns is-multiline is-tablet is-mobile is-centered"><br/>
           &#8194; &lt;div class="column is-11-desktop is-11-tablet is-11-mobile has-background-info"><br/>
@@ -317,7 +317,41 @@
         &lt;/div><br/>
       </code><br/><br/>
 
-      <p class="is-size-5-desktop is-size-5-tablet is-size-5-mobile">Y por ultimo</p>
+      <!-- Espacios costados -->
+      <div class="column is-12-desktop is-12-tablet is-12-mobile">
+        <p class="is-size-5-desktop is-size-5-tablet is-size-5-mobile">Y por ultimo</p>
+        <h2 class="title is-size-2">Otra alternativa de usar la clase <code>is-12-{{ isDispositive }}</code></h2>
+        <p>Anteriormente les comente que Bulma.io nos permite 12 columnas como maximo, así que si queremos 4 columnas, dividimos la cantidad maxima que es 12 entre las columnas deseadas, <br/>
+          12/4 = 3: por lo que tenemos que usar <code>is-3-{{ isDispositive }}</code><br/>
+          12/3 = 4: por lo que tenemos que usar <code>is-4-{{ isDispositive }}</code><br/>
+          12/2 = 6: por lo que tenemos que usar <code>is-6-{{ isDispositive }}</code><br/>
+        </p><br/>
+
+        <p>Pero que pasa si yo quiero 5 columnas<br/>
+          12/5 = 2.4 no hay manera de poner decimales en la clase: <code>is-2.4-{{ isDispositive }}</code><br/>
+          Más sin embargo podemos usar un medio(1/2), un tercio(1/3), dos cuartos(2/4), tres quintos(3/5) (ovbio en ingles :v) 
+          <code>
+            <li>is-three-quarters</li>
+            <li>is-two-thirds</li>
+            <li>is-half</li>
+          </code>
+        </p>
+
+        <p>
+          Ahora bien 
+        </p>
+            <li>is-one-third</li>
+            <li>is-one-quarter</li>
+      </div>
+
+      <div class="column is-half has-background-dark"></div>
+      <div class="column is-half has-background-blue"></div>
+      <div class="column is-12 has-background-dark">
+        <div class="columns is-mulitiline is-centered">
+          <div class="column is-half has-background-info"></div>
+        </div>
+      </div>
+      
     </section>
   </div>
 </template>
