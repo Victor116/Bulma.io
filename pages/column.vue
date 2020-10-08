@@ -329,19 +329,23 @@
 
         <p>Pero que pasa si yo quiero 5 columnas<br/>
           12/5 = 2.4 no hay manera de poner decimales en la clase: <code>is-2.4-{{ isDispositive }}</code><br/>
-          Más sin embargo podemos usar un medio(1/2), un tercio(1/3), dos cuartos(2/4), tres quintos(3/5) (ovbio en ingles :v) 
+          Más sin embargo podemos usar un medio(1/2), un tercio(1/3), dos cuartos(2/4), tres quintos(3/5), ovbio usando las clases en ingles :v
           <code>
             <li>is-three-quarters</li>
             <li>is-two-thirds</li>
             <li>is-half</li>
           </code>
         </p>
+      </div>
 
+      <div class="column is-12-desktop is-12-tablet is-12-mobile">
         <p>
-          Ahora bien 
-        </p>
+          Para finalizar es importante que recuerden el singular y plural: 
+          <code>
             <li>is-one-third</li>
             <li>is-one-quarter</li>
+          </code>
+        </p>
       </div>
 
       <div class="column is-half has-background-dark"></div>
@@ -350,7 +354,7 @@
         <div class="columns is-mulitiline is-centered">
           <div class="column is-half has-background-info"></div>
         </div>
-      </div>
+      </div>      
       
     </section>
   </div>
